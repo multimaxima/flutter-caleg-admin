@@ -56,6 +56,7 @@ class _ProfilPageState extends State<ProfilPage> {
   final TextEditingController _kelamin = TextEditingController();
   final TextEditingController _jenisKelamin = TextEditingController();
   final TextEditingController _hp = TextEditingController();
+  final TextEditingController _hp1 = TextEditingController();
   final TextEditingController _uid = TextEditingController();
   final TextEditingController _nik = TextEditingController();
   final TextEditingController _ktp = TextEditingController();
@@ -181,6 +182,7 @@ class _ProfilPageState extends State<ProfilPage> {
                 ? 'PEREMPUAN'
                 : '';
         _hp.text = data['hp'] ?? '';
+        _hp1.text = data['hp1'] ?? '';
         _uid.text = data['uid'] ?? '';
         _nik.text = data['nik'] ?? '';
         _foto.text = data['foto'] ?? '';
@@ -1053,6 +1055,18 @@ class _ProfilPageState extends State<ProfilPage> {
               ),
               enabled: false,
             ),
+            TextFormField(
+              controller: _hp1,
+              keyboardType: TextInputType.phone,
+              style: const TextStyle(fontSize: 14),
+              decoration: const InputDecoration(
+                labelText: "NOMOR HP TAMBAHAN",
+                labelStyle: TextStyle(fontSize: 14),
+                contentPadding: EdgeInsets.all(10),
+                fillColor: Colors.white,
+                filled: true,
+              ),
+            ),
             const SizedBox(height: 5),
             TextFormField(
               controller: _nik,
@@ -1442,6 +1456,7 @@ class _ProfilPageState extends State<ProfilPage> {
                               "temp_lahir": _tempLahir.text,
                               "tgl_lahir": _tglLahir.text,
                               "kelamin": _kelamin.text,
+                              "hp1": _hp1.text,
                               "nik": _nik.text,
                               "email": _email.text,
                               "no_prop_wilayah": _noPropWilayah.text,

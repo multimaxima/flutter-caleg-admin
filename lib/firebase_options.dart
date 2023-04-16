@@ -44,39 +44,39 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCGBMdox7vGND_2U8qDQBFum70vTe-uTs0',
-    appId: '1:644101839836:web:c1e313767365a3e554cd19',
-    messagingSenderId: '644101839836',
-    projectId: 'caleg-f670d',
-    authDomain: 'caleg-f670d.firebaseapp.com',
-    storageBucket: 'caleg-f670d.appspot.com',
+    apiKey: 'AIzaSyAw3wtzwd5Pu55vlBTYJYHeY6uu4G_yGEw',
+    appId: '1:620984871250:web:94f23a51a8623b254b328b',
+    messagingSenderId: '620984871250',
+    projectId: 'caleg-383907',
+    authDomain: 'caleg-383907.firebaseapp.com',
+    storageBucket: 'caleg-383907.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA43FXBDbu-rhSCknOy7MmF4NT0K-zNGRA',
-    appId: '1:644101839836:android:846b4d7ef6a23b7054cd19',
-    messagingSenderId: '644101839836',
-    projectId: 'caleg-f670d',
-    storageBucket: 'caleg-f670d.appspot.com',
+    apiKey: 'AIzaSyDIB_vplhlxmerAu52yC5s3312LTnbv5cI',
+    appId: '1:620984871250:android:5961def92e1fd3ce4b328b',
+    messagingSenderId: '620984871250',
+    projectId: 'caleg-383907',
+    storageBucket: 'caleg-383907.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD0855RIe0Dpz-OGaOhldNJ6M5HGO47Xtw',
-    appId: '1:644101839836:ios:208e79277f8e34c154cd19',
-    messagingSenderId: '644101839836',
-    projectId: 'caleg-f670d',
-    storageBucket: 'caleg-f670d.appspot.com',
-    iosClientId: '644101839836-40n5130ksdlcra79as2ddn1fqh7hlpsq.apps.googleusercontent.com',
+    apiKey: 'AIzaSyAL4aKJLqj6odak4iHU98LYaG3d1kCAxbg',
+    appId: '1:620984871250:ios:46817fb8651b9cf94b328b',
+    messagingSenderId: '620984871250',
+    projectId: 'caleg-383907',
+    storageBucket: 'caleg-383907.appspot.com',
+    iosClientId: '620984871250-s47qu2bmvp3ois1cqv33u25ijjum61cc.apps.googleusercontent.com',
     iosBundleId: 'com.example.calegAdmin',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyD0855RIe0Dpz-OGaOhldNJ6M5HGO47Xtw',
-    appId: '1:644101839836:ios:208e79277f8e34c154cd19',
-    messagingSenderId: '644101839836',
-    projectId: 'caleg-f670d',
-    storageBucket: 'caleg-f670d.appspot.com',
-    iosClientId: '644101839836-40n5130ksdlcra79as2ddn1fqh7hlpsq.apps.googleusercontent.com',
+    apiKey: 'AIzaSyAL4aKJLqj6odak4iHU98LYaG3d1kCAxbg',
+    appId: '1:620984871250:ios:46817fb8651b9cf94b328b',
+    messagingSenderId: '620984871250',
+    projectId: 'caleg-383907',
+    storageBucket: 'caleg-383907.appspot.com',
+    iosClientId: '620984871250-s47qu2bmvp3ois1cqv33u25ijjum61cc.apps.googleusercontent.com',
     iosBundleId: 'com.example.calegAdmin',
   );
 }
